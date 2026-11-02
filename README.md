@@ -32,14 +32,18 @@ SwagLabsAppFramework/
 │       └── BaseTestSwagLabsApp.java # Core setup, capabilities, and lifecycle hooks
 ├── testng.xml                 # Test Suite suite-level configuration
 └── pom.xml                    # Maven dependencies, build profiles, and plugins
+```
+
 ⚙️ Execution Instructions
 1. Local Execution
 Ensure your Appium server is active locally on port 4723 and your emulator is running, then execute:
 
-Bash
+```bash
 mvn clean test
+```
 2. CI/CD Execution (Jenkins)
 Trigger the automated pipeline utilizing environment parameters:
 
-Bash
+```bash
 mvn clean test -Denv=ci
+```
