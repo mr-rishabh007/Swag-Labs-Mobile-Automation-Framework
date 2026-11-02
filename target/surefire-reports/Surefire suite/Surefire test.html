@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 02 11:47:05 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>551 seconds (551228 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.LoginTest.TC_LOGIN_02()'><b>TC_LOGIN_02</b><br>Test class: com.automation.framework.SwagLabsAppFramework.LoginTest</td>
+<td></td>
+<td>8</td>
+<td>com.automation.framework.SwagLabsAppFramework.LoginTest@3d51f06e</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.MenuTest.TC_01_testOpenAndCloseMenu()'><b>TC_01_testOpenAndCloseMenu</b><br>Test class: com.automation.framework.SwagLabsAppFramework.MenuTest<br>Test method: TC_MENU_01: Verify side navigation menu open and close actions</td>
+<td></td>
+<td>4</td>
+<td>com.automation.framework.SwagLabsAppFramework.MenuTest@7ed7259e</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.MenuTest.TC_04_testDrawingCanvasFeature()'><b>TC_04_testDrawingCanvasFeature</b><br>Test class: com.automation.framework.SwagLabsAppFramework.MenuTest<br>Test method: TC_MENU_04: Verify Drawing canvas feature</td>
+<td></td>
+<td>2</td>
+<td>com.automation.framework.SwagLabsAppFramework.MenuTest@7ed7259e</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.LoginTest.TC_LOGIN_01()'><b>TC_LOGIN_01</b><br>Test class: com.automation.framework.SwagLabsAppFramework.LoginTest</td>
+<td></td>
+<td>6</td>
+<td>com.automation.framework.SwagLabsAppFramework.LoginTest@3d51f06e</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.ProductInventoryTest.TC_INV_01()'><b>TC_INV_01</b><br>Test class: com.automation.framework.SwagLabsAppFramework.ProductInventoryTest</td>
+<td></td>
+<td>4</td>
+<td>com.automation.framework.SwagLabsAppFramework.ProductInventoryTest@28eaa59a</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.HomePDPTest.TC_PDP_02()'><b>TC_PDP_02</b><br>Test class: com.automation.framework.SwagLabsAppFramework.HomePDPTest</td>
+<td></td>
+<td>10</td>
+<td>com.automation.framework.SwagLabsAppFramework.HomePDPTest@481a996b</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.CheckoutTest.TC_CHECKOUT_03_verifyCancelCheckoutFlow()'><b>TC_CHECKOUT_03_verifyCancelCheckoutFlow</b><br>Test class: com.automation.framework.SwagLabsAppFramework.CheckoutTest</td>
+<td></td>
+<td>24</td>
+<td>com.automation.framework.SwagLabsAppFramework.CheckoutTest@1cbbffcd</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.MenuTest.TC_06_testLogoutFromMenu()'><b>TC_06_testLogoutFromMenu</b><br>Test class: com.automation.framework.SwagLabsAppFramework.MenuTest<br>Test method: Verify Logout flow from the side menu returns user to login screen</td>
+<td></td>
+<td>4</td>
+<td>com.automation.framework.SwagLabsAppFramework.MenuTest@7ed7259e</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.ProductInventoryTest.TC_INV_03()'><b>TC_INV_03</b><br>Test class: com.automation.framework.SwagLabsAppFramework.ProductInventoryTest</td>
+<td></td>
+<td>8</td>
+<td>com.automation.framework.SwagLabsAppFramework.ProductInventoryTest@28eaa59a</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.HomePDPTest.TC_PDP_01()'><b>TC_PDP_01</b><br>Test class: com.automation.framework.SwagLabsAppFramework.HomePDPTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.framework.SwagLabsAppFramework.HomePDPTest@481a996b</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.MenuTest.TC_02_testResetAppState()'><b>TC_02_testResetAppState</b><br>Test class: com.automation.framework.SwagLabsAppFramework.MenuTest<br>Test method: TC_MENU_02: Verify Reset App State functionality from the side menu</td>
+<td></td>
+<td>2</td>
+<td>com.automation.framework.SwagLabsAppFramework.MenuTest@7ed7259e</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.MenuTest.TC_05_testGeoLocationFeature()'><b>TC_05_testGeoLocationFeature</b><br>Test class: com.automation.framework.SwagLabsAppFramework.MenuTest<br>Test method: TC_MENU_05: Verify Geo Location / Maps feature</td>
+<td></td>
+<td>6</td>
+<td>com.automation.framework.SwagLabsAppFramework.MenuTest@7ed7259e</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.CartTest.TC_CART_01_verifyCartNavigationAndItemPresence()'><b>TC_CART_01_verifyCartNavigationAndItemPresence</b><br>Test class: com.automation.framework.SwagLabsAppFramework.CartTest</td>
+<td></td>
+<td>15</td>
+<td>com.automation.framework.SwagLabsAppFramework.CartTest@654f0d9c</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.HomePDPTest.TC_PDP_03()'><b>TC_PDP_03</b><br>Test class: com.automation.framework.SwagLabsAppFramework.HomePDPTest</td>
+<td></td>
+<td>25</td>
+<td>com.automation.framework.SwagLabsAppFramework.HomePDPTest@481a996b</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.CheckoutTest.TC_CHECKOUT_02_verifySuccessfulInformationSubmission()'><b>TC_CHECKOUT_02_verifySuccessfulInformationSubmission</b><br>Test class: com.automation.framework.SwagLabsAppFramework.CheckoutTest</td>
+<td></td>
+<td>26</td>
+<td>com.automation.framework.SwagLabsAppFramework.CheckoutTest@1cbbffcd</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.CartTest.TC_CART_02_verifyContinueShoppingButton()'><b>TC_CART_02_verifyContinueShoppingButton</b><br>Test class: com.automation.framework.SwagLabsAppFramework.CartTest</td>
+<td></td>
+<td>3</td>
+<td>com.automation.framework.SwagLabsAppFramework.CartTest@654f0d9c</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.HomePDPTest.TC_PDP_04()'><b>TC_PDP_04</b><br>Test class: com.automation.framework.SwagLabsAppFramework.HomePDPTest</td>
+<td></td>
+<td>2</td>
+<td>com.automation.framework.SwagLabsAppFramework.HomePDPTest@481a996b</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.CheckoutTest.TC_CHECKOUT_01_verifyMandatoryFieldsValidation()'><b>TC_CHECKOUT_01_verifyMandatoryFieldsValidation</b><br>Test class: com.automation.framework.SwagLabsAppFramework.CheckoutTest</td>
+<td></td>
+<td>23</td>
+<td>com.automation.framework.SwagLabsAppFramework.CheckoutTest@1cbbffcd</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.ProductInventoryTest.TC_INV_02()'><b>TC_INV_02</b><br>Test class: com.automation.framework.SwagLabsAppFramework.ProductInventoryTest</td>
+<td></td>
+<td>4</td>
+<td>com.automation.framework.SwagLabsAppFramework.ProductInventoryTest@28eaa59a</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.CartTest.TC_CART_03_verifyItemRemovalFromCart()'><b>TC_CART_03_verifyItemRemovalFromCart</b><br>Test class: com.automation.framework.SwagLabsAppFramework.CartTest</td>
+<td></td>
+<td>36</td>
+<td>com.automation.framework.SwagLabsAppFramework.CartTest@654f0d9c</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.MenuTest.TC_03_testWebViewNavigation()'><b>TC_03_testWebViewNavigation</b><br>Test class: com.automation.framework.SwagLabsAppFramework.MenuTest<br>Test method: TC_MENU_03: Verify WebView feature navigation from the menu</td>
+<td></td>
+<td>2</td>
+<td>com.automation.framework.SwagLabsAppFramework.MenuTest@7ed7259e</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.CartTest.TC_CART_04_verifyProceedToCheckout()'><b>TC_CART_04_verifyProceedToCheckout</b><br>Test class: com.automation.framework.SwagLabsAppFramework.CartTest</td>
+<td></td>
+<td>6</td>
+<td>com.automation.framework.SwagLabsAppFramework.CartTest@654f0d9c</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.CheckoutTest.TC_CHECKOUT_04_verifyCompleteOrderFlow()'><b>TC_CHECKOUT_04_verifyCompleteOrderFlow</b><br>Test class: com.automation.framework.SwagLabsAppFramework.CheckoutTest</td>
+<td></td>
+<td>32</td>
+<td>com.automation.framework.SwagLabsAppFramework.CheckoutTest@1cbbffcd</td></tr>
+<tr>
+<td title='com.automation.framework.SwagLabsAppFramework.ProductInventoryTest.TC_INV_04()'><b>TC_INV_04</b><br>Test class: com.automation.framework.SwagLabsAppFramework.ProductInventoryTest</td>
+<td></td>
+<td>4</td>
+<td>com.automation.framework.SwagLabsAppFramework.ProductInventoryTest@28eaa59a</td></tr>
+</table><p>
+</body>
+</html>

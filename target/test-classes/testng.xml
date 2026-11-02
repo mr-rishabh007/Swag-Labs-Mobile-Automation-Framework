@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SwagLabs Automation Suite">
+
+	<!-- Registering the Extent Report Listener -->
+	<listeners>
+		<listener
+			class-name="com.automation.framework.Utils.ExtentTestNGListener" />
+	</listeners>
+
+	<test name="Mobile Regression Tests">
+		<classes>
+			<!-- Runs login flow first, keeping the session active -->
+			<class
+				name="com.automation.framework.SwagLabsAppFramework.LoginTest" />
+
+			<!-- Runs product inventory flows -->
+			<class
+				name="com.automation.framework.SwagLabsAppFramework.ProductInventoryTest" />
+
+			<!-- Runs product and PDP flows next on the same logged-in session -->
+			<class
+				name="com.automation.framework.SwagLabsAppFramework.HomePDPTest" />
+
+			<class
+				name="com.automation.framework.SwagLabsAppFramework.CartTest" />
+
+			<class
+				name="com.automation.framework.SwagLabsAppFramework.CheckoutTest" />
+
+			<class
+				name="com.automation.framework.SwagLabsAppFramework.MenuTest" />
+
+		</classes>
+	</test>
+
+</suite>

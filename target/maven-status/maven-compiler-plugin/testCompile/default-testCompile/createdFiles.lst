@@ -1,0 +1,15 @@
+com\automation\framework\SwagLabsAppFramework\ProductInventoryTest.class
+com\automation\framework\Utils\WaitUtils.class
+com\automation\framework\SwagLabsAppFramework\CheckoutTest.class
+com\automation\framework\SwagLabsAppFramework\HomePDPTest.class
+com\automation\framework\SwagLabsAppFramework\LoginTest.class
+com\automation\framework\SwagLabsAppFramework\CartTest.class
+com\automation\framework\SwagLabsAppFramework\pages\AuthenticationPage.class
+com\automation\framework\SwagLabsAppFramework\pages\CartPage.class
+com\automation\framework\SwagLabsAppFramework\pages\CheckoutPage.class
+com\automation\framework\Utils\ExtentReportManager.class
+com\automation\framework\Utils\ExtentTestNGListener.class
+com\automation\framework\SwagLabsAppFramework\pages\InventoryPage.class
+com\automation\framework\SwagLabsAppFramework\MenuTest.class
+com\automation\framework\SwagLabsAppFramework\pages\MenuPage.class
+com\automation\framework\SwagLabsAppFramework\pages\ProductDetailsPage.class

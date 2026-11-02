@@ -1,0 +1,5 @@
+# Created at 2026-11-02T11:46:44.473
+Boot Manifest-JAR contains absolute paths in classpath 'F:\Eclipse Application\eclipse-workspace\SwagLabsAppFramework\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="573.461" tests="24" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="F:\Eclipse Application\eclipse-workspace\SwagLabsAppFramework\target\test-classes;F:\Eclipse Application\eclipse-workspace\SwagLabsAppFramework\target\classes;C:\Users\Rishabh\.m2\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Rishabh\.m2\io\appium\java-client\11.0.0\java-client-11.0.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-api\4.52.0\selenium-api-4.52.0.jar;C:\Users\Rishabh\.m2\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\Rishabh\.m2\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;C:\Users\Rishabh\.m2\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\Rishabh\.m2\org\slf4j\slf4j-api\2.0.20\slf4j-api-2.0.20.jar;C:\Users\Rishabh\.m2\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\Rishabh\.m2\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Rishabh\.m2\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Rishabh\.m2\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Rishabh\.m2\com\automation\practice\practice-test-project\0.0.1-SNAPSHOT\practice-test-project-0.0.1-SNAPSHOT.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\Rishabh\.m2\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\Rishabh\.m2\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\Rishabh\.m2\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\Rishabh\.m2\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Rishabh\.m2\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Rishabh\.m2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Rishabh\.m2\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Rishabh\.m2\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\Rishabh\.m2\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\Rishabh\.m2\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Rishabh\.m2\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Rishabh\.m2\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Rishabh\.m2\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Rishabh\.m2\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Rishabh\.m2\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.20.1\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire7933417226980827722\surefirebooter-20261102114644387_3.jar C:\Windows\Temp\surefire7933417226980827722 2026-11-02T11-46-44_020-jvmRun1 surefire-20261102114644387_1tmp surefire_0-20261102114644387_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\Eclipse Application\eclipse-workspace\SwagLabsAppFramework\target\test-classes;F:\Eclipse Application\eclipse-workspace\SwagLabsAppFramework\target\classes;C:\Users\Rishabh\.m2\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Rishabh\.m2\io\appium\java-client\11.0.0\java-client-11.0.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-api\4.52.0\selenium-api-4.52.0.jar;C:\Users\Rishabh\.m2\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\Rishabh\.m2\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;C:\Users\Rishabh\.m2\net\bytebuddy\byte-buddy\1.18.14\byte-buddy-1.18.14.jar;C:\Users\Rishabh\.m2\org\slf4j\slf4j-api\2.0.20\slf4j-api-2.0.20.jar;C:\Users\Rishabh\.m2\org\jspecify\jspecify\1.0.1\jspecify-1.0.1.jar;C:\Users\Rishabh\.m2\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Rishabh\.m2\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Rishabh\.m2\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Rishabh\.m2\com\automation\practice\practice-test-project\0.0.1-SNAPSHOT\practice-test-project-0.0.1-SNAPSHOT.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\Rishabh\.m2\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\Rishabh\.m2\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\Rishabh\.m2\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\Rishabh\.m2\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Rishabh\.m2\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Rishabh\.m2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Rishabh\.m2\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Rishabh\.m2\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\Rishabh\.m2\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\Rishabh\.m2\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\Rishabh\.m2\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\Rishabh\.m2\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Rishabh\.m2\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Rishabh\.m2\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Rishabh\.m2\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Rishabh\.m2\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Rishabh\.m2\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.20.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\Eclipse Application\eclipse-workspace\SwagLabsAppFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire7933417226980827722\surefirebooter-20261102114644387_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.20.1+1-LTS-4"/>
+    <property name="user.name" value="RC0898NITRO$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Rishabh\.m2"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="17.0.20.1"/>
+    <property name="user.dir" value="F:\Eclipse Application\eclipse-workspace\SwagLabsAppFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env" value="ci"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.20.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Apache\Maven\apache-maven-3.9.9/bin;C:\Program Files\Java\jdk-17.0.20.1/bin;C:\Program Files\Java\jdk-17.0.20.1/bin;C:\Program Files\Microsoft\jdk-21.0.3.9-hotspot\bin;C:\Program Files\Java\jdk-17.0.20.1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Rishabh\AppData\Local\Android\Sdk\tools\bin;C:\Users\Rishabh\AppData\Local\Android\Sdk\tools;C:\Users\Rishabh\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin;F:\Git\cmd;C:\Program Files\Java\jdk-17.0.20.1\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.20.1+1-LTS-4"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="C:\Users\Rishabh\.m2"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="TC_CART_01_verifyCartNavigationAndItemPresence" classname="com.automation.framework.SwagLabsAppFramework.CartTest" time="15.879">
+    <system-out><![CDATA[&amp#27;[38;5;112m[Appium]&amp#27;[0m Welcome to Appium v2.18.0
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Non-default server args:
+&amp#27;[38;5;112m[Appium]&amp#27;[0m { address: &amp#27;[32m'127.0.0.1'&amp#27;[39m }
+&amp#27;[38;5;112m[Appium]&amp#27;[0m The APPIUM_HOME environment variable: C:\Users\Rishabh\.appium
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Attempting to load driver uiautomator2...
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Requiring driver at C:\Users\Rishabh\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+&amp#27;[38;5;112m[Appium]&amp#27;[0m AndroidUiautomator2Driver has been successfully loaded in 2.956s
+&amp#27;[38;5;86m[HTTP]&amp#27;[0m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Could not configure Appium server. It's possible that a driver or plugin tried to update the server and failed. Original error: listen EADDRINUSE: address already in use 127.0.0.1:4723
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Error: listen EADDRINUSE: address already in use 127.0.0.1:4723
+    at Server.setupListenHandle [as _listen2] (node:net:1939:16)
+    at listenInCluster (node:net:1996:12)
+    at node:net:2205:7
+    at processTicksAndRejections (node:internal/process/task_queues:90:21)
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="TC_CART_02_verifyContinueShoppingButton" classname="com.automation.framework.SwagLabsAppFramework.CartTest" time="3.597"/>
+  <testcase name="TC_CART_03_verifyItemRemovalFromCart" classname="com.automation.framework.SwagLabsAppFramework.CartTest" time="36.314"/>
+  <testcase name="TC_CART_04_verifyProceedToCheckout" classname="com.automation.framework.SwagLabsAppFramework.CartTest" time="6.742"/>
+  <testcase name="TC_CHECKOUT_01_verifyMandatoryFieldsValidation" classname="com.automation.framework.SwagLabsAppFramework.CheckoutTest" time="23.698"/>
+  <testcase name="TC_CHECKOUT_02_verifySuccessfulInformationSubmission" classname="com.automation.framework.SwagLabsAppFramework.CheckoutTest" time="26.82"/>
+  <testcase name="TC_CHECKOUT_03_verifyCancelCheckoutFlow" classname="com.automation.framework.SwagLabsAppFramework.CheckoutTest" time="24.818"/>
+  <testcase name="TC_CHECKOUT_04_verifyCompleteOrderFlow" classname="com.automation.framework.SwagLabsAppFramework.CheckoutTest" time="32.54"/>
+  <testcase name="TC_PDP_01" classname="com.automation.framework.SwagLabsAppFramework.HomePDPTest" time="0.338"/>
+  <testcase name="TC_PDP_02" classname="com.automation.framework.SwagLabsAppFramework.HomePDPTest" time="10.373"/>
+  <testcase name="TC_PDP_03" classname="com.automation.framework.SwagLabsAppFramework.HomePDPTest" time="25.639"/>
+  <testcase name="TC_PDP_04" classname="com.automation.framework.SwagLabsAppFramework.HomePDPTest" time="2.889"/>
+  <testcase name="TC_LOGIN_01" classname="com.automation.framework.SwagLabsAppFramework.LoginTest" time="6.634"/>
+  <testcase name="TC_LOGIN_02" classname="com.automation.framework.SwagLabsAppFramework.LoginTest" time="8.273"/>
+  <testcase name="TC_01_testOpenAndCloseMenu" classname="com.automation.framework.SwagLabsAppFramework.MenuTest" time="4.061"/>
+  <testcase name="TC_02_testResetAppState" classname="com.automation.framework.SwagLabsAppFramework.MenuTest" time="2.413"/>
+  <testcase name="TC_03_testWebViewNavigation" classname="com.automation.framework.SwagLabsAppFramework.MenuTest" time="2.378"/>
+  <testcase name="TC_04_testDrawingCanvasFeature" classname="com.automation.framework.SwagLabsAppFramework.MenuTest" time="2.362"/>
+  <testcase name="TC_05_testGeoLocationFeature" classname="com.automation.framework.SwagLabsAppFramework.MenuTest" time="6.044"/>
+  <testcase name="TC_06_testLogoutFromMenu" classname="com.automation.framework.SwagLabsAppFramework.MenuTest" time="4.317"/>
+  <testcase name="TC_INV_01" classname="com.automation.framework.SwagLabsAppFramework.ProductInventoryTest" time="4.08"/>
+  <testcase name="TC_INV_02" classname="com.automation.framework.SwagLabsAppFramework.ProductInventoryTest" time="4.815"/>
+  <testcase name="TC_INV_03" classname="com.automation.framework.SwagLabsAppFramework.ProductInventoryTest" time="8.981"/>
+  <testcase name="TC_INV_04" classname="com.automation.framework.SwagLabsAppFramework.ProductInventoryTest" time="4.716">
+    <system-out><![CDATA[Note: Programmatic rotation restricted by environment, skipping physical rotation command.
+]]></system-out>
+  </testcase>
+</testsuite>

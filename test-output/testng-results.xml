@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-02T11:28:11 IST" name="Default suite" finished-at="2026-11-02T11:28:11 IST" duration-ms="38">
+    <groups>
+    </groups>
+    <test started-at="2026-11-02T11:28:11 IST" name="Default test" finished-at="2026-11-02T11:28:11 IST" duration-ms="38">
+      <class name="com.automation.framework.SwagLabsAppFramework.LoginTest">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:com.automation.framework.SwagLabsAppFramework.LoginTest@233795b6]" started-at="2026-11-02T11:28:10 IST" name="configureAppium" finished-at="2026-11-02T11:28:11 IST" duration-ms="300" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'RC0898NITRO', ip: '10.30.167.13'
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: F:\Eclipse Application\ecli..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:chromedriverExecutable: F:\Eclipse Application\chro..., appium:deviceName: Rishabh Pixel 9a, appium:enforceAppInstall: false, appium:orientation: PORTRAIT, platformName: ANDROID}]}]
+Capabilities {appium:app: F:\Eclipse Application\ecli..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:chromedriverExecutable: F:\Eclipse Application\chro..., appium:deviceName: Rishabh Pixel 9a, appium:enforceAppInstall: false, appium:orientation: PORTRAIT, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'RC0898NITRO', ip: '10.30.167.13'
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: F:\Eclipse Application\ecli..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:chromedriverExecutable: F:\Eclipse Application\chro..., appium:deviceName: Rishabh Pixel 9a, appium:enforceAppInstall: false, appium:orientation: PORTRAIT, platformName: ANDROID}]}]
+Capabilities {appium:app: F:\Eclipse Application\ecli..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:chromedriverExecutable: F:\Eclipse Application\chro..., appium:deviceName: Rishabh Pixel 9a, appium:enforceAppInstall: false, appium:orientation: PORTRAIT, platformName: ANDROID}
+at io.appium.java_client.remote.AppiumRemoteWebDriver.execute(AppiumRemoteWebDriver.java:388)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+at io.appium.java_client.remote.AppiumRemoteWebDriver.<init>(AppiumRemoteWebDriver.java:119)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:103)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:105)
+at com.automation.framework.SwagLabsAppFramework.BaseTestSwagLabsApp.configureAppium(BaseTestSwagLabsApp.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: io.appium.java_client.internal.http.ConnectionException: Connection error (POST http://127.0.0.1:4723/session)
+at io.appium.java_client.internal.http.JdkHttpClient.execute0(JdkHttpClient.java:278)
+at io.appium.java_client.internal.filters.AppiumIdempotencyFilter.lambda$apply$0(AppiumIdempotencyFilter.java:45)
+at io.appium.java_client.internal.filters.AppiumUserAgentFilter.lambda$apply$0(AppiumUserAgentFilter.java:102)
+at io.appium.java_client.http.Filter.lambda$andFinally$1(Filter.java:47)
+at io.appium.java_client.internal.http.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:202)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:897)
+at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+at io.appium.java_client.internal.http.JdkHttpClient.execute0(JdkHttpClient.java:255)
+... 9 more
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1107)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:203)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:238)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:214)
+at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:187)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:189)
+... 9 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.automation.framework.SwagLabsAppFramework.LoginTest@233795b6]" started-at="2026-11-02T11:28:11 IST" name="setupMethod" finished-at="2026-11-02T11:28:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method is-config="true" signature="verifyLoginScreen()[pri:0, instance:com.automation.framework.SwagLabsAppFramework.LoginTest@233795b6]" started-at="2026-11-02T11:28:11 IST" name="verifyLoginScreen" finished-at="2026-11-02T11:28:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScreen -->
+        <test-method signature="TC_LOGIN_01()[pri:1, instance:com.automation.framework.SwagLabsAppFramework.LoginTest@233795b6]" started-at="2026-11-02T11:28:11 IST" name="TC_LOGIN_01" finished-at="2026-11-02T11:28:11 IST" duration-ms="1" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'RC0898NITRO', ip: '10.30.167.13'
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: F:\Eclipse Application\ecli..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:chromedriverExecutable: F:\Eclipse Application\chro..., appium:deviceName: Rishabh Pixel 9a, appium:enforceAppInstall: false, appium:orientation: PORTRAIT, platformName: ANDROID}]}]
+Capabilities {appium:app: F:\Eclipse Application\ecli..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:chromedriverExecutable: F:\Eclipse Application\chro..., appium:deviceName: Rishabh Pixel 9a, appium:enforceAppInstall: false, appium:orientation: PORTRAIT, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'RC0898NITRO', ip: '10.30.167.13'
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: F:\Eclipse Application\ecli..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:chromedriverExecutable: F:\Eclipse Application\chro..., appium:deviceName: Rishabh Pixel 9a, appium:enforceAppInstall: false, appium:orientation: PORTRAIT, platformName: ANDROID}]}]
+Capabilities {appium:app: F:\Eclipse Application\ecli..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:chromedriverExecutable: F:\Eclipse Application\chro..., appium:deviceName: Rishabh Pixel 9a, appium:enforceAppInstall: false, appium:orientation: PORTRAIT, platformName: ANDROID}
+at io.appium.java_client.remote.AppiumRemoteWebDriver.execute(AppiumRemoteWebDriver.java:388)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+at io.appium.java_client.remote.AppiumRemoteWebDriver.<init>(AppiumRemoteWebDriver.java:119)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:103)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:105)
+at com.automation.framework.SwagLabsAppFramework.BaseTestSwagLabsApp.configureAppium(BaseTestSwagLabsApp.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: io.appium.java_client.internal.http.ConnectionException: Connection error (POST http://127.0.0.1:4723/session)
+at io.appium.java_client.internal.http.JdkHttpClient.execute0(JdkHttpClient.java:278)
+at io.appium.java_client.internal.filters.AppiumIdempotencyFilter.lambda$apply$0(AppiumIdempotencyFilter.java:45)
+at io.appium.java_client.internal.filters.AppiumUserAgentFilter.lambda$apply$0(AppiumUserAgentFilter.java:102)
+at io.appium.java_client.http.Filter.lambda$andFinally$1(Filter.java:47)
+at io.appium.java_client.internal.http.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:202)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:897)
+at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+at io.appium.java_client.internal.http.JdkHttpClient.execute0(JdkHttpClient.java:255)
+... 9 more
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1107)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:203)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:238)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:214)
+at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:187)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:189)
+... 9 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_LOGIN_01 -->
+        <test-method is-config="true" signature="setupMethod()[pri:0, instance:com.automation.framework.SwagLabsAppFramework.LoginTest@233795b6]" started-at="2026-11-02T11:28:11 IST" name="setupMethod" finished-at="2026-11-02T11:28:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method is-config="true" signature="verifyLoginScreen()[pri:0, instance:com.automation.framework.SwagLabsAppFramework.LoginTest@233795b6]" started-at="2026-11-02T11:28:11 IST" name="verifyLoginScreen" finished-at="2026-11-02T11:28:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScreen -->
+        <test-method signature="TC_LOGIN_02()[pri:2, instance:com.automation.framework.SwagLabsAppFramework.LoginTest@233795b6]" started-at="2026-11-02T11:28:11 IST" name="TC_LOGIN_02" finished-at="2026-11-02T11:28:11 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'RC0898NITRO', ip: '10.30.167.13'
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: F:\Eclipse Application\ecli..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:chromedriverExecutable: F:\Eclipse Application\chro..., appium:deviceName: Rishabh Pixel 9a, appium:enforceAppInstall: false, appium:orientation: PORTRAIT, platformName: ANDROID}]}]
+Capabilities {appium:app: F:\Eclipse Application\ecli..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:chromedriverExecutable: F:\Eclipse Application\chro..., appium:deviceName: Rishabh Pixel 9a, appium:enforceAppInstall: false, appium:orientation: PORTRAIT, platformName: ANDROID}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. null 
+Host info: host: 'RC0898NITRO', ip: '10.30.167.13'
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.20.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: F:\Eclipse Application\ecli..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:chromedriverExecutable: F:\Eclipse Application\chro..., appium:deviceName: Rishabh Pixel 9a, appium:enforceAppInstall: false, appium:orientation: PORTRAIT, platformName: ANDROID}]}]
+Capabilities {appium:app: F:\Eclipse Application\ecli..., appium:appActivity: com.swaglabsmobileapp.Splas..., appium:appPackage: com.swaglabsmobileapp, appium:appWaitActivity: *, appium:autoGrantPermissions: true, appium:automationName: UIAutomator2, appium:chromedriverExecutable: F:\Eclipse Application\chro..., appium:deviceName: Rishabh Pixel 9a, appium:enforceAppInstall: false, appium:orientation: PORTRAIT, platformName: ANDROID}
+at io.appium.java_client.remote.AppiumRemoteWebDriver.execute(AppiumRemoteWebDriver.java:388)
+at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+at io.appium.java_client.remote.AppiumRemoteWebDriver.<init>(AppiumRemoteWebDriver.java:119)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:80)
+at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:103)
+at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:105)
+at com.automation.framework.SwagLabsAppFramework.BaseTestSwagLabsApp.configureAppium(BaseTestSwagLabsApp.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: io.appium.java_client.internal.http.ConnectionException: Connection error (POST http://127.0.0.1:4723/session)
+at io.appium.java_client.internal.http.JdkHttpClient.execute0(JdkHttpClient.java:278)
+at io.appium.java_client.internal.filters.AppiumIdempotencyFilter.lambda$apply$0(AppiumIdempotencyFilter.java:45)
+at io.appium.java_client.internal.filters.AppiumUserAgentFilter.lambda$apply$0(AppiumUserAgentFilter.java:102)
+at io.appium.java_client.http.Filter.lambda$andFinally$1(Filter.java:47)
+at io.appium.java_client.internal.http.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:202)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:897)
+at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:133)
+at io.appium.java_client.internal.http.JdkHttpClient.execute0(JdkHttpClient.java:255)
+... 9 more
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1107)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:203)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:238)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:214)
+at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:187)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:189)
+... 9 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_LOGIN_02 -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.automation.framework.SwagLabsAppFramework.LoginTest@233795b6]" started-at="2026-11-02T11:28:11 IST" name="TearDown" finished-at="2026-11-02T11:28:11 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.automation.framework.SwagLabsAppFramework.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
